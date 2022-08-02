@@ -1,0 +1,12 @@
+name: 'Build MY Personal Keyboard'
+on: workflow_dispatch
+jobs:
+  build:
+    uses: ./.github/workflows/main.yml
+    secrets: inherit
+    with:
+      board: '["nice_nano_v2"]',
+      shield: '["rae_left", "rae_right"]',
+      nav: '["invertedt"]',
+      layers: '["flip"]',
+      mapping: '["extended_thumbs"]'
