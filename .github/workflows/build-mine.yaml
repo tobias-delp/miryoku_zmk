@@ -6,7 +6,7 @@ jobs:
     secrets: inherit
     with:
       board: '["nice_nano_v2"]'
-      shield: '["rae_left", "rae_right"]'
+      shield: '["rae_dux_left", "rae_dux_right"]'
       nav: '["invertedt"]'
       layers: '["flip"]'
       mapping: '["extended_thumbs"]'
